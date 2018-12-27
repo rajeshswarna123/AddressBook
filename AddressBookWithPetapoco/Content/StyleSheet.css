@@ -1,0 +1,236 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+    body .header {
+        background-color: #3399CC;
+    }
+
+        body .header h1 {
+            margin: 0;
+            padding: 25px 24px;
+            color: white;
+            font-weight: 100;
+            font-family: Century Gothic;
+            font-size: 50px;
+        }
+
+    body .main-nav {
+        background-color: #333333;
+        font-family: Century Gothic;
+        font-size: 14px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between;
+    }
+
+        body .main-nav img {
+            padding: 6px 20px;
+        }
+
+        body .main-nav .nav ul {
+            padding: 0;
+            margin: 0 !important;
+        }
+
+            body .main-nav .nav ul li {
+                display: inline-block;
+            }
+
+                body .main-nav .nav ul li a {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                    margin-left: 24px;
+                    padding: 8px 8px;
+                    font-size: 16px;
+                }
+
+                    body .main-nav .nav ul li a:hover {
+                        background-color: #FF9900;
+                        border-left: 4px solid white;
+                        margin-left: 20px;
+                        color: black !important;
+                    }
+
+    body .container {
+        display: inline-block;
+        margin: 0 !important;
+        padding: 0 !important;
+        position: absolute;
+    }
+
+        body .container .contacts {
+            margin-left: 20px;
+            display: inline-block;
+        }
+
+            body .container .contacts h3 {
+                font-size: 17px !important;
+                margin-top: 17px !important;
+                margin-bottom: 17px !important;
+                font-weight: 600 !important;
+            }
+
+        body .container #contact-details {
+            padding: 30px;
+            display: flex;
+            justify-content: space-between
+        }
+
+            body .container #contact-details {
+                text-decoration: none;
+            }
+            #options span:hover{
+                cursor: pointer;
+            }
+
+            body .container #contact-details #options img {
+                vertical-align: bottom !important;
+                width: 15px;
+            }
+
+.cancel, .add {
+    margin: 10px;
+}
+
+#contactList .contact {
+    border: 1px solid #CCCCCC;
+    width: 380px;
+    max-width: 380px;
+    cursor: pointer;
+}
+
+    #contactList    .contact {
+        padding: 5px;
+    }
+
+.field-validation-error {
+    color: #f00;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+#contact-form {
+    box-shadow: 0 0 15px #000;
+    margin: 30px 40px;
+    width: 700px;
+    display: inline-block;
+    position: fixed;
+    padding: 10px 50px;
+    visibility:hidden;
+}
+
+#Name, #Email, #Website, #Address {
+    min-width: 520px !important;
+    max-width: 520px !important;
+}
+
+#Mobile, #Landline {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+input {
+    height: 34px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    display: block;
+    padding: 5px;
+}
+
+.formElement {
+    margin: 10px;
+}
+
+.nameLabel {
+    margin-top: 10px;
+}
+
+#contact-number {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .buttons button {
+        margin: 20px;
+    }
+
+    .buttons #cancel {
+        display: inline-block;
+        color: #ffffff;
+        background-color: #ff5454;
+        border-color: #f91942;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.428571429;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+.contacts {
+    max-width: 380px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+    .contacts h3 {
+        font-size: 17px !important;
+        margin-top: 17px !important;
+        margin-bottom: 17px !important;
+        font-weight: 600 !important;
+    }
+#contact-details {
+    visibility: hidden;
+}
+#add{
+    margin-left: 5px !important;
+}

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\Generated\Database.tt" />
+    <None Remove="Models\Generated\PetaPoco.Core.ttinclude" />
+    <None Remove="Models\Generated\PetaPoco.Generator.ttinclude" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Models\Generated\Database.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </Content>
+    <Content Include="Models\Generated\PetaPoco.Core.ttinclude" />
+    <Content Include="Models\Generated\PetaPoco.Generator.ttinclude" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="PetaPoco" Version="5.1.306" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Models\Generated\Database.cs">
+      <DependentUpon>Database.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

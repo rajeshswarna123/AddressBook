@@ -1,0 +1,53 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title -Address Book</title>
+    <link href="~/Content/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="~/Scripts/AddressBook.js"></script>
+</head>
+<body>
+
+    <div class="header">
+
+        <h1>Address Book</h1>
+
+    </div>
+
+    <div class="main-nav">
+
+        <div class="nav">
+
+            <ul>
+
+                <li><a id="home" href="/">HOME</a></li>
+                <li><a id="add" href="#">+ADD</a></li>
+
+            </ul>
+
+        </div>
+        <div>
+            <img src="~/Images/blog-icon.png" alt="Blog Icon" />
+        </div>
+
+    </div>
+    <div class="body-content">
+        <div class="contacts">
+            <h3 class="contacts-heading">CONTACTS</h3>
+            <div id="contactList">
+            </div>
+        </div>
+        @RenderBody()
+
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿@using ContactService.Models
+@using PagedList;
+@model IEnumerable<Contact>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    @Html.Partial("_contactForm")
+    <div id="contact-details">
+        <div id="display-contat-details">
+        </div>
+        <div id='options'>
+            <span id='edit' > <img src='/Images/edit1.jpg'>&nbsp; EDIT</span>  
+            <span id='delete'><img src='/Images/delete1.png'>&nbsp; DELETE</span>
+        </div>
+    </div>
+</div>

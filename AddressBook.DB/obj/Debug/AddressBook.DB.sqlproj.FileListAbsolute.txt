@@ -1,0 +1,9 @@
+C:\Users\rajesh.s.TECHNOVERT\source\repos\AddressBookUsingWebAPI\AddressBook.DB\bin\Debug\AddressBook.DB.dacpac
+C:\Users\rajesh.s.TECHNOVERT\source\repos\AddressBookUsingWebAPI\AddressBook.DB\bin\Debug\AddressBook.DB.dll
+C:\Users\rajesh.s.TECHNOVERT\source\repos\AddressBookUsingWebAPI\AddressBook.DB\bin\Debug\AddressBook.DB.pdb
+C:\Users\rajesh.s.TECHNOVERT\source\repos\AddressBookUsingWebAPI\AddressBook.DB\obj\Debug\AddressBook.DB.dll
+C:\Users\rajesh.s.TECHNOVERT\source\repos\AddressBookUsingWebAPI\AddressBook.DB\obj\Debug\AddressBook.DB.pdb
+C:\Users\rajesh.s.TECHNOVERT\source\repos\AddressBookUsingWebAPI\AddressBook.DB\obj\Debug\Model.xml
+C:\Users\rajesh.s.TECHNOVERT\source\repos\AddressBookUsingWebAPI\AddressBook.DB\obj\Debug\refactor.xml
+C:\Users\rajesh.s.TECHNOVERT\source\repos\AddressBookUsingWebAPI\AddressBook.DB\obj\Debug\postdeploy.sql
+C:\Users\rajesh.s.TECHNOVERT\source\repos\AddressBookUsingWebAPI\AddressBook.DB\obj\Debug\predeploy.sql
